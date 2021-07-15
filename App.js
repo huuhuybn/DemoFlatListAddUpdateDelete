@@ -42,7 +42,7 @@ export default function App() {
 
            var arr = [...duLieu]
            arr[index].name = 'AA'
-           arr[index].id = 99
+           arr[index].id =  Math.floor(Math.random() * 10000)
            setDuLieu(arr)
          
   
